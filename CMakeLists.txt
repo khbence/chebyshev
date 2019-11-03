@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.0)
 
-project(interpolations)
+project(chebyshev)
 include_directories(include)
 
 set (CMAKE_CXX_STANDARD 17)
@@ -26,4 +26,4 @@ ENDIF()
 
 file (GLOB SOURCES "src/*.cpp" "include/*")
 
-add_executable (interpolations ${SOURCES})
+add_executable (chebyshev ${SOURCES})
